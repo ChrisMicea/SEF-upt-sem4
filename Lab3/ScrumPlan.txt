@@ -1,0 +1,89 @@
+1) Product Backlog:
+    Stories:
+    1) As a student, I want to add tasks so that I can track my assignments.    Priority: High
+    2) As a student, I want to be able to add deadlines to my tasks so I can manage my time better.     Priority: Medium
+    3) As a student, I want to be able to view upcoming tasks so I can plan which ones to complete.     Priority: Medium
+    4) As a student, I want to be able to mark tasks as completed.  Priority: Medium
+    5) As a student, I want to view completed tasks.     Priority: Low
+
+2) Sprint Planning
+
+Sprint 1:
+    Sprint Goal:
+
+    Add basic functionality to the Student Task Manager system so that students can create their own tasks to better track assignments, add deadlines to said tasks and, finally, to be able to mark them as completed so that they can use a rudimentary verion of the application to track and organize their tasks and assignments.
+
+    Sprint Backlog:
+
+    Story: "As a student, I want to add tasks so that I can track my assignments."
+        Task Name: Design task input form.
+            Description: Create the interface where the student can create a task and enter its details.
+            Story Points: 2
+
+        Task Name: Implement save functionality.
+            Description: Develop the backend logic that stores the newly created task in the system's database or data storage, if the task details were                                          inputted successfully.
+            Story Points: 3
+
+        Task Name: Test task creation.
+            Description: Verify that tasks can be successfully added, saved correctly, and displayed in the task list without errors.
+            Story Points: 2
+    Sum of Story Points: 7
+
+    Story: "As a student, I want to be able to add deadlines to my tasks so I can manage my time better."
+        Task Name: Design deadline creation editor form.
+            Description: Create the interface for a student to be able to edit and existing task in order to add a deadline to it.
+            Story Points: 2
+
+        Task Name: Implement save functionality.
+            Description: Develop the backend logic so that a user can successfully save the newly added deadline and for it to be stored in the system's database, if the deadline is valid.
+            Story points: 4
+
+        Task Name: Integrate deadline creation in the task creation form.
+            Description: Add the extra components to the task creation form so that a student can directly input a deadline there, not just by editing an existing task.
+            Story Points: 2
+
+        Task Name: Test deadline of tasks.
+            Description: Verify that the deadlines of the tasks can be correctly inputted and are stored correctly, irrespective of time zone issues or other possible errors and that everything is displayed correctly.
+            Story Points: 4
+        Sum of Story Points: 12
+
+    Story: "As a student, I want to be able to mark tasks as completed."
+        Task Name: Design task completion UI element.
+        Description: Create the user interface component that allows a student to mark a task as completed directly from the task list or task details view.
+        Story Points: 2
+
+        Task Name: Implement completion status logic.
+        Description: Develop the backend logic to update the task’s status to “completed” when the user interacts with the UI element. Ensure the system correctly distinguishes between completed and incomplete tasks.
+        Story Points: 3
+
+        Task Name: Update task display.
+        Description: Modify the task list UI to mark completed tasks, and that it also works in real time if a user marks a task as completed.
+        Story Points: 2
+
+        Task Name: Integrate task completion into backend and database.
+        Description: Ensure that the completion status of tasks is saved in the database or storage system so that completed tasks remain marked after page reloads or user logs out.
+        Story Points: 3
+
+        Task Name: Test task completion feature and integration.
+        Description: Verify that the task completion system works as intended and that it works nicely with the other existing UI elements and systems like the task updater fo the deadline or that task view.
+        Story Points: 3
+    Sum of Story Points: 13
+
+
+
+Scrum Master Reflection:
+    Problems that might occur during the sprint:
+        Difficulty of integrating different systems might be underestimated.
+        Uncaught errors in existing components might make developing and integrating new ones even more difficult.
+        For systems working and tracking real elapsed time, unforseen problems related to time zones or tracking elapsed days or such might occur.
+        Delayed development of the essential stories like being able to add tasks might make the development of other components like adding deadlines stall.
+
+    How the Scrum Master could help the team:
+        Make sure that the developers handle the task distribution appropriately.
+        Make sure that the team is not overwhelmed by additional stories being added to the Sprint Backlog, while they are implementing existing ones.
+        Moderate and provide useful feedback doing the Daily Scrum so that roadblocks can be quickly tackled and development to continue smoothly.
+
+    What could be improved in the next sprint?
+        Managing the individual stress and load put on any individual developer.
+        Better estimation of the team velocity and of the amount of time necessary for each story.
+        Team coordination and task assignment.
