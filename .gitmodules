@@ -1,0 +1,12 @@
+[submodule "Lab5"]
+	path = Lab5
+	url = https://github.com/ChrisMicea/SEF_Lab5
+[submodule "Lab7"]
+	path = Lab7
+	url = https://github.com/ChrisMicea/SEF_Lab7
+[submodule "Lab11"]
+	path = Lab11
+	url = https://github.com/ChrisMicea/SEF_Lab11.git
+[submodule "Lab4/studentManager-main"]
+	path = Lab4/studentManager-main
+	url = https://github.com/ChrisMicea/SEF_Lab4
